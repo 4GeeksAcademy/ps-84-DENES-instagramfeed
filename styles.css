@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(https://img.freepik.com/vector-gratis/fondo-degradado-lineas-azules-dinamicas_23-2148995756.jpg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.feed-container {
+    width: 60%;
+    max-width: 800px;
+    background-color: skyblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.post {
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-title {
+    font-weight: bold;
+    color: black;
+}
+
+.post-date {
+    color: black solid
+}
+
+.post-image img {
+    width: 100%;
+}
+
+.post-description {
+    margin-top: 10px;
+    line-height: 1.6;
+}
